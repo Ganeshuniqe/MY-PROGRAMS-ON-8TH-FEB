@@ -1,0 +1,17 @@
+/*YALLA GANESH-ADCELR*/
+#include <stdio.h>
+void new(int n)
+{
+    printf ("%d\n", n);
+    if (n > 1)
+    {
+        new(n - 1);
+    }
+}
+
+int main() 
+{
+ 
+    new(10);
+    return 0;
+}
